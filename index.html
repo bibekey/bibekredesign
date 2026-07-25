@@ -63,13 +63,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
     </header>
+
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
      data-spy="affix"
      data-offset-top="510">
 
     <div class="container d-flex align-items-center">
 
-        <!-- Mobile Logo -->
         <a href="#" class="navbar-brand d-block d-sm-none">
             <img src="assets/img/BRLOGO.png"
                  alt="BR"
@@ -79,7 +79,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                  class="logo-img">
         </a>
 
-        <!-- Mobile Toggle -->
         <button class="navbar-toggler ml-auto"
                 type="button"
                 data-toggle="collapse"
@@ -92,19 +91,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         </button>
 
-        <!-- Navigation -->
-        <div class="collapse navbar-collapse mt-sm-20"
+        <div class="collapse mt-sm-20 navbar-collapse"
              id="navbarSupportedContent">
 
-            <!-- Left Menu -->
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
 
-                <!-- About -->
+                <!-- Dropdown 1 -->
                 <li class="nav-item">
+
                     <a href="javascript:void(0);"
                        class="nav-link dropbtn"
                        onclick="myFunction('myDropdown1')">
@@ -112,11 +110,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </a>
 
                     <ul class="dropdown-content" id="myDropdown1">
-                        <li><a href="about/me" class="nav-link">About Me</a></li>
-                        <li><a href="#resume" class="nav-link">Resume</a></li>
-                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                        <li><a href="#service" class="nav-link">Service</a></li>
+                        <a href="about/me" class="nav-link">About Me</a>
+                        <a href="#resume" class="nav-link">Resume</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#service" class="nav-link">Service</a>
                     </ul>
+
                 </li>
 
                 <li class="nav-item">
@@ -125,14 +124,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             </ul>
 
-            <!-- Center Brand -->
             <ul class="navbar-nav brand">
 
-                <li class="nav-item">
-                    <img src="assets/img/avatar.jpg"
-                         alt="Bibek Rajbanshi"
-                         class="brand-img">
-                </li>
+                <img src="assets/img/avatar.jpg"
+                     alt=""
+                     class="brand-img">
 
                 <li class="brand-txt">
                     <h5 class="brand-title">
@@ -140,7 +136,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </h5>
 
                     <div class="brand-subtitle">
-                        Sales &amp; Marketing |
+                        Sales And Marketing |
                         Digital Marketing |
                         Front-End Web Developer |
                         Web Designer
@@ -149,11 +145,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             </ul>
 
-            <!-- Right Menu -->
             <ul class="navbar-nav ml-auto">
 
-                <!-- Resources -->
+                <!-- Dropdown 2 -->
                 <li class="nav-item">
+
                     <a href="javascript:void(0);"
                        class="nav-link dropbtn"
                        onclick="myFunction('myDropdown2')">
@@ -161,16 +157,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </a>
 
                     <ul class="dropdown-content" id="myDropdown2">
-                        <li><a href="downloads" class="nav-link">Downloads</a></li>
-                        <li><a href="ebooks-&-guides" class="nav-link">Ebooks &amp; Guides</a></li>
-                        <li><a href="tools-&-software" class="nav-link">Tools &amp; Software</a></li>
-                        <li><a href="templates-&-worksheets" class="nav-link">Templates &amp; Worksheets</a></li>
-                        <li><a href="case-studies-&-success-stories" class="nav-link">Case Studies &amp; Success Stories</a></li>
+                        <a href="downloads" class="nav-link">Downloads</a>
+                        <a href="ebooks-&-guides" class="nav-link">Ebooks & Guides</a>
+                        <a href="tools-&-software" class="nav-link">Tools & Software</a>
+                        <a href="templates-&-worksheets" class="nav-link">Templates & Worksheets</a>
+                        <a href="case-studies-&-success-stories" class="nav-link">Case Studies & Success Stories</a>
                     </ul>
-                </li>
 
-                <!-- More -->
+                <!-- Dropdown 3 (Your new dropdown) -->
                 <li class="nav-item">
+
                     <a href="javascript:void(0);"
                        class="nav-link dropbtn"
                        onclick="myFunction('myDropdown3')">
@@ -178,8 +174,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </a>
 
                     <ul class="dropdown-content" id="myDropdown3">
-                        <li><a href="#" class="nav-link">Pages</a></li>
+                        <a href="#" class="nav-link">Pages</a>
                     </ul>
+
                 </li>
 
                 <li class="nav-item last-item">
@@ -377,170 +374,337 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </div>
 
-    <!--Resume Section-->
-    <section class="section" id="resume">
-        <div class="container">
-            <h2 class="mb-5"><span class="text-danger"><b>My</span> Resume</b></h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Experience</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">Dec 2024 - Feb 2025</h6>
-                            <p class="text-muted"><b>Web Development</b></p>
-                            <P class="text-muted">Designed and developed responsive websites using HTML, CSS, and JavaScript.</P>
-                            <hr>
-                            <h6 class="title text-danger">July 2024 - Dec 2024</h6>
-                            <p class="text-muted"><b>Social Media Handler</b></p>
-                            <P class="text-muted">Handles daily social media activities, design posts, responds to messages, and helps grow online presence.</P>
-                            <hr>
-                            <h6 class="title text-danger">March 2020 - Jan 2021</h6>
-                            <p class="text-muted"><b>Graphic Designer</b></p>
-                            <P class="text-muted">Created visual content for websites, marketing materials, and branding. Used tools like Adobe Photoshop, Canva, and InDesign to design logos, brochures, and social media graphics.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2021 - Present</h6>
-                            <p class="text-muted"><b>Bachelor in Business Administration (BBA)</b></p>
-                            <P class="text-muted">Specializing in business management, marketing strategies, and financial analysis to develop leadership and problem-solving skills.</P>
-                            <hr>
-                            <h6 class="title text-danger">2019 - 2020</h6>
-                            <p class="text-muted"><b>Higher Secondary Education(10+2) in Management</b></p>
-                            <P class="text-muted">Focused on foundational concepts of business, economics, and accountancy to build managerial and analytical skills.</P>
-                            <hr>
-                            <h6 class="title text-danger">2008 - 2018</h6>
-                            <p class="text-muted"><b>Secondary Education Examination (SEE)</b></p>
-                            <P class="text-muted">Completed secondary education with a focus on core subjects including Mathematics, Science, and English.</P>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                           <P class="text-muted">HTML, CSS &amp; JavaScript</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" data-target="95"></div>
-                            </div>
-                            <P class="text-muted">Photo Editing</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="99"></div>
-                            </div>
-                            <P class="text-muted">Microsoft Office</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="80"></div>
-                            </div>
-                            <P class="text-muted">Customer Service</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Languages</h4>
-                                <span class="line"></span>  
-                            </div>
-                        </div>
-                        <div class="card-body pb-2">
-                            <P class="text-muted">English</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="90"></div>
-                            </div>
-                            <P class="text-muted">Hindi</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="85"></div>
-                            </div>
-                           <P class="text-muted">Nepali</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="99"></div>
-                            </div>
-                            <P class="text-muted">Maithili</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="88"></div>
-                            </div>
-                            <P class="text-muted">Rajbanshi</p>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-target="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   <!-- =========================
+RESUME SECTION
+========================= -->
 
-    <section class="section bg-dark text-center">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 col-lg-3">
-                    <div class="row ">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="counter text-danger font-weight-bold font40" data-target="2">0</h1>
-                            <p class="text-light mb-1">Years Experience</p>
-                        </div>
+<section class="section" id="resume">
+
+    <div class="container">
+
+        <!-- Section Title -->
+        <h2 class="mb-5">
+            <span class="text-danger"><b>My</b></span> <b>Resume</b>
+        </h2>
+
+        <div class="row">
+
+            <!-- =========================
+            EXPERIENCE
+            ========================= -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h4 class="mt-2">Experience</h4>
+                        <span class="line"></span>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="counter text-danger font-weight-bold font40" data-target="30">0</h1>
-                            <p class="text-light mb-1">Project Complicted</p>
-                        </div>
+
+                    <div class="card-body">
+
+                        <h6 class="title text-danger">Dec 2024 – Feb 2025</h6>
+                        <p class="text-muted"><strong>Web Development</strong></p>
+                        <p class="text-muted">
+                            Designed and developed responsive websites using
+                            HTML, CSS, and JavaScript.
+                        </p>
+
+                        <hr>
+
+                        <h6 class="title text-danger">Jul 2024 – Dec 2024</h6>
+                        <p class="text-muted"><strong>Social Media Handler</strong></p>
+                        <p class="text-muted">
+                            Managed daily social media activities, created
+                            engaging content, responded to customer messages,
+                            and helped grow online presence.
+                        </p>
+
+                        <hr>
+
+                        <h6 class="title text-danger">Mar 2020 – Jan 2021</h6>
+                        <p class="text-muted"><strong>Graphic Designer</strong></p>
+                        <p class="text-muted">
+                            Designed branding materials, brochures, social
+                            media graphics, and marketing content using
+                            Photoshop, Canva, and Adobe InDesign.
+                        </p>
+
                     </div>
+
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="counter text-danger font-weight-bold font40" data-target="20">0</h1>
-                            <p class="text-light mb-1">Satisfied Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-settings icon-xl"></i></div>
-                        </div>
-                        <div class="col-7 text-left py-3">
-                            <h1 class="counter text-danger font-weight-bold font40" data-target="10">0+</h1>
-                            <p class="text-light mb-1">Technologies Used</p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+
+            <!-- =========================
+            EDUCATION
+            ========================= -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h4 class="mt-2">Education</h4>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class="title text-danger">2021 – Present</h6>
+                        <p class="text-muted">
+                            <strong>Bachelor of Business Administration (BBA)</strong>
+                        </p>
+                        <p class="text-muted">
+                            Studying business management, marketing, finance,
+                            and leadership to strengthen analytical and
+                            decision-making skills.
+                        </p>
+
+                        <hr>
+
+                        <h6 class="title text-danger">2019 – 2020</h6>
+                        <p class="text-muted">
+                            <strong>Higher Secondary Education (10+2) – Management</strong>
+                        </p>
+                        <p class="text-muted">
+                            Studied accounting, economics, business studies,
+                            and management fundamentals.
+                        </p>
+
+                        <hr>
+
+                        <h6 class="title text-danger">2008 – 2018</h6>
+                        <p class="text-muted">
+                            <strong>Secondary Education Examination (SEE)</strong>
+                        </p>
+                        <p class="text-muted">
+                            Completed secondary education with emphasis on
+                            Mathematics, Science, English, and Social Studies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- =========================
+            SKILLS & LANGUAGES
+            ========================= -->
+
+            <div class="col-lg-4">
+
+                <!-- Skills -->
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h4 class="mt-2">Skills</h4>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="card-body pb-2">
+
+                        <p class="text-muted">HTML, CSS &amp; JavaScript</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="95"></div>
+                        </div>
+
+                        <p class="text-muted">Photo Editing</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="99"></div>
+                        </div>
+
+                        <p class="text-muted">Microsoft Office</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="80"></div>
+                        </div>
+
+                        <p class="text-muted">Customer Service</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="100"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Languages -->
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h4 class="mt-2">Languages</h4>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="card-body pb-2">
+
+                        <p class="text-muted">English</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="90"></div>
+                        </div>
+
+                        <p class="text-muted">Hindi</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="85"></div>
+                        </div>
+
+                        <p class="text-muted">Nepali</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="99"></div>
+                        </div>
+
+                        <p class="text-muted">Maithili</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="88"></div>
+                        </div>
+
+                        <p class="text-muted">Rajbanshi</p>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success"
+                                 role="progressbar"
+                                 style="width:0%;"
+                                 data-target="100"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-    </section>
+
+    </div>
+
+</section>
+
+    <!-- =========================
+COUNTER SECTION
+========================= -->
+
+<section class="section bg-dark text-center">
+
+    <div class="container">
+
+        <div class="row text-center">
+
+            <!-- Years of Experience -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="row">
+
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto">
+                            <i class="ti-alarm-clock icon-xl"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-7 text-left py-3">
+                        <h1 class="counter text-danger font-weight-bold font40"
+                            data-target="2">0</h1>
+                        <p class="text-light mb-1">Years Experience</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Projects Completed -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="row">
+
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto">
+                            <i class="ti-layers-alt icon-xl"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-7 text-left py-3">
+                        <h1 class="counter text-danger font-weight-bold font40"
+                            data-target="30">0</h1>
+                        <p class="text-light mb-1">Projects Completed</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Satisfied Clients -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="row">
+
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto">
+                            <i class="ti-face-smile icon-xl"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-7 text-left py-3">
+                        <h1 class="counter text-danger font-weight-bold font40"
+                            data-target="20">0</h1>
+                        <p class="text-light mb-1">Satisfied Clients</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Technologies Used -->
+            <div class="col-md-6 col-lg-3">
+
+                <div class="row">
+
+                    <div class="col-5 text-right text-light border-right py-3">
+                        <div class="m-auto">
+                            <i class="ti-settings icon-xl"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-7 text-left py-3">
+                        <h1 class="counter text-danger font-weight-bold font40"
+                            data-target="10">0+</h1>
+                        <p class="text-light mb-1">Technologies Used</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
     <section class="section" id="service">
         <div class="container">
