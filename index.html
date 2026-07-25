@@ -63,126 +63,319 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
     </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-       <div class="container d-flex align-items-center">
-    <a href="#" class="navbar-brand d-block d-sm-none">
-    <img src="assets/img/BRLOGO.png" alt="BR" title="BRLOGO" width="50" height="50" class="logo-img">
-</a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
+     data-spy="affix"
+     data-offset-top="510">
 
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-            </li>
-<!-- Dropdown 1 -->
-<li class="nav-item">
-  <a href="javascript:void(0);" class="nav-link dropbtn" onclick="myFunction('myDropdown1')">About <span class="arrow">&#9662;</span></a>
-  <ul class="dropdown-content" id="myDropdown1">
-  <a href="about/me" class="nav-link">About Me</a>
-  <a href="#resume" class="nav-link">Resume</a>
-  <a href="#portfolio" class="nav-link">Portfolio</a>
-  <a href="#service" class="nav-link">Service</a>
-  </ul>
-            </li>
-            <li class="nav-item">
-                <a href="blog" class="nav-link">Blog</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav brand">
-            <img src="assets/img/avatar.jpg" alt="" class="brand-img">
-            <li class="brand-txt">
-                <h5 class="brand-title"><strong>Bibek Rajbanshi</strong></h5>
-                <div class="brand-subtitle">Sales And Marketing | Digital Marketing | Front-End Web Developer | Web Designer</div>
-            </li> 
-        </ul>
-        <ul class="navbar-nav ml-auto">
-<!-- Dropdown 2 -->
-<li class="nav-item">
-  <a href="javascript:void(0);" class="nav-link dropbtn" onclick="myFunction('myDropdown2')">Resources <span class="arrow">&#9662;</span></a>
-  <ul class="dropdown-content" id="myDropdown2">
-  <a href="downloads" class="nav-link">Downloads</a>
-  <a href="ebooks-&-guides" class="nav-link">Ebooks & Guides</a>
-  <a href="tools-&-software" class="nav-link">Tools & Software</a>
-  <a href="templates-&-worksheets" class="nav-link">Templates & Worksheets</a>  
-  <a href="case-studies-&-success-stories" class="nav-link">Case Studies & Success Stories</a>
-  </ul>
-   <!-- Dropdown 3 (Your new dropdown) -->
-  <li class="nav-item">
-    <a href="javascript:void(0);" class="nav-link dropbtn" onclick="myFunction('myDropdown3')">More <span class="arrow">&#9662;</span></a>
-    <ul class="dropdown-content" id="myDropdown3">
-      <a href="#" class="nav-link">Pages</a>
-    </ul>
-  </li>
-            <li class="nav-item last-item">
-                <a href="contact" class="nav-link">Contact</a>
-            </li>
-      </div>
-</div>
+    <div class="container d-flex align-items-center">
+
+        <!-- Mobile Logo -->
+        <a href="#" class="navbar-brand d-block d-sm-none">
+            <img src="assets/img/BRLOGO.png"
+                 alt="BR"
+                 title="BRLOGO"
+                 width="50"
+                 height="50"
+                 class="logo-img">
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler ml-auto"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse mt-sm-20"
+             id="navbarSupportedContent">
+
+            <!-- Left Menu -->
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <!-- About -->
+                <li class="nav-item">
+                    <a href="javascript:void(0);"
+                       class="nav-link dropbtn"
+                       onclick="myFunction('myDropdown1')">
+                        About <span class="arrow">&#9662;</span>
+                    </a>
+
+                    <ul class="dropdown-content" id="myDropdown1">
+                        <li><a href="about/me" class="nav-link">About Me</a></li>
+                        <li><a href="#resume" class="nav-link">Resume</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#service" class="nav-link">Service</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="blog" class="nav-link">Blog</a>
+                </li>
+
+            </ul>
+
+            <!-- Center Brand -->
+            <ul class="navbar-nav brand">
+
+                <li class="nav-item">
+                    <img src="assets/img/avatar.jpg"
+                         alt="Bibek Rajbanshi"
+                         class="brand-img">
+                </li>
+
+                <li class="brand-txt">
+                    <h5 class="brand-title">
+                        <strong>Bibek Rajbanshi</strong>
+                    </h5>
+
+                    <div class="brand-subtitle">
+                        Sales &amp; Marketing |
+                        Digital Marketing |
+                        Front-End Web Developer |
+                        Web Designer
+                    </div>
+                </li>
+
+            </ul>
+
+            <!-- Right Menu -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Resources -->
+                <li class="nav-item">
+                    <a href="javascript:void(0);"
+                       class="nav-link dropbtn"
+                       onclick="myFunction('myDropdown2')">
+                        Resources <span class="arrow">&#9662;</span>
+                    </a>
+
+                    <ul class="dropdown-content" id="myDropdown2">
+                        <li><a href="downloads" class="nav-link">Downloads</a></li>
+                        <li><a href="ebooks-&-guides" class="nav-link">Ebooks &amp; Guides</a></li>
+                        <li><a href="tools-&-software" class="nav-link">Tools &amp; Software</a></li>
+                        <li><a href="templates-&-worksheets" class="nav-link">Templates &amp; Worksheets</a></li>
+                        <li><a href="case-studies-&-success-stories" class="nav-link">Case Studies &amp; Success Stories</a></li>
+                    </ul>
+                </li>
+
+                <!-- More -->
+                <li class="nav-item">
+                    <a href="javascript:void(0);"
+                       class="nav-link dropbtn"
+                       onclick="myFunction('myDropdown3')">
+                        More <span class="arrow">&#9662;</span>
+                    </a>
+
+                    <ul class="dropdown-content" id="myDropdown3">
+                        <li><a href="#" class="nav-link">Pages</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item last-item">
+                    <a href="contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+
         </div>
-    </nav>
 
-
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3 card-title text-dark">Sales And Marketing | Digital Marketing | Front-End Web Developer | Web Designer</h5>
-                <p class="text-muted"> I bring a wealth of experience in designing and developing visually appealing, functional, and user-friendly websites.</p>
-                <a href="about/error.html" target="blank"><button class="btn btn-outline-danger"><i class="ti-download pr-2"></i>Download CV</button></a>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-    <li><i class="ti-email"> </i> <span>Email</span> : <a href="mailto:bibekrb55@gmail.com" class="text-muted">bibekrb55@gmail.com</a></li>
-    <li><i class="ti-mobile"> </i> <span>Phone</span> : <a href="tel:+9779840976007" class="text-muted">(+977) 9840976007</a></li>
-    <li><i class="ti-location-pin"> </i> <span>Address</span> : <a href="https://maps.app.goo.gl/XhSogYjQikg2F3F67" class="text-muted" target="_blank">Biratnagar, Nepal</a></li>
-
-                </ul>
-<div class="frame">
-    <a href="https://www.facebook.com/bibek.dec" class="btn"><i class="fab fa-facebook-f" style="color: #3b5998;"></i></a>
-    <a href="https://www.instagram.com/bibekrb_" class="btn"><i class="fab fa-instagram" style="color: #E4405F;"></i></a>
-    <a href="https://www.linkedin.com/in/bibekrb" class="btn"><i class="fab fa-linkedin-in" style="color: #0e76a8;"></i></a>
-    <a href="https://www.tiktok.com/@bi.b.ek" class="btn"><i class="fab fa-tiktok" style="color: #000000;"></i></a>
-    <a href="https://github.com/" class="btn"><i class="fab fa-github" style="color: #181717;"></i></a>
-    <a href="https://www.snapchat.com/add/bibekey5" class="btn"><i class="fab fa-snapchat" style="color: #000000;;"></i></a>
-</div>
-                </ul>  
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-image icon-md"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="mb-3 card-title text-dark">Graphic Design</h6>
-                        <p class="text-muted"> Creating eye-catching visuals to communicate ideas.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-world icon-md"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="mb-3 card-title text-dark">Web Development</h6>
-                        <p class="text-muted">Creating responsive and dynamic websites.</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-md"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6 class="mb-3 card-title text-dark">Digital Marketing</h6>
-                        <p class="text-muted">Boosting visibility through online campaigns.</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+
+</nav>
+
+
+   <div class="container-fluid">
+
+    <div id="about" class="row about-section">
+
+        <!-- About -->
+        <div class="col-lg-4 about-card">
+
+            <h3 class="font-weight-light">Who Am I?</h3>
+            <span class="line mb-5"></span>
+
+            <h5 class="mb-3 card-title text-dark">
+                Sales & Marketing |
+                Digital Marketing |
+                Front-End Web Developer |
+                Web Designer
+            </h5>
+
+            <p class="text-muted">
+                I design and develop visually appealing, responsive, and
+                user-friendly websites while combining creative design,
+                digital marketing, and sales strategies to deliver
+                effective online solutions.
+            </p>
+
+            <a href="about/error.html" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-outline-danger">
+                    <i class="ti-download pr-2"></i>
+                    Download CV
+                </button>
+            </a>
+
+        </div>
+
+        <!-- Personal Information -->
+        <div class="col-lg-4 about-card">
+
+            <h3 class="font-weight-light">Personal Info</h3>
+            <span class="line mb-5"></span>
+
+            <ul class="info list-unstyled mt-4">
+
+                <li>
+                    <i class="ti-email"></i>
+                    <span>Email :</span>
+                    <a href="mailto:bibekrb55@gmail.com" class="text-muted">
+                        bibekrb55@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <i class="ti-mobile"></i>
+                    <span>Phone :</span>
+                    <a href="tel:+9779840976007" class="text-muted">
+                        (+977) 9840976007
+                    </a>
+                </li>
+
+                <li>
+                    <i class="ti-location-pin"></i>
+                    <span>Address :</span>
+                    <a href="https://maps.app.goo.gl/XhSogYjQikg2F3F67"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text-muted">
+                        Biratnagar, Nepal
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Social Links -->
+            <div class="frame">
+
+                <a href="https://www.facebook.com/bibek.dec" class="btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/bibekrb_" class="btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/bibekrb" class="btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin-in linkedin"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@bi.b.ek" class="btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-tiktok tiktok"></i>
+                </a>
+
+                <a href="https://github.com/bibekey" class="btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github github"></i>
+                </a>
+
+                <a href="https://www.snapchat.com/add/bibekey5" class="btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-snapchat snapchat"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Expertise -->
+        <div class="col-lg-4 about-card">
+
+            <h3 class="font-weight-light">My Expertise</h3>
+            <span class="line mb-5"></span>
+
+            <!-- Graphic Design -->
+            <div class="row">
+
+                <div class="col-1 text-danger pt-1">
+                    <i class="ti-image icon-md"></i>
+                </div>
+
+                <div class="col-10 ml-auto mr-3">
+
+                    <h6 class="mb-3 card-title text-dark">
+                        Graphic Design
+                    </h6>
+
+                    <p class="text-muted">
+                        Creating eye-catching visuals that communicate ideas effectively.
+                    </p>
+
+                    <hr>
+
+                </div>
+
+            </div>
+
+            <!-- Web Development -->
+            <div class="row">
+
+                <div class="col-1 text-danger pt-1">
+                    <i class="ti-world icon-md"></i>
+                </div>
+
+                <div class="col-10 ml-auto mr-3">
+
+                    <h6 class="mb-3 card-title text-dark">
+                        Web Development
+                    </h6>
+
+                    <p class="text-muted">
+                        Building responsive, fast, and modern websites for businesses.
+                    </p>
+
+                    <hr>
+
+                </div>
+
+            </div>
+
+            <!-- Digital Marketing -->
+            <div class="row">
+
+                <div class="col-1 text-danger pt-1">
+                    <i class="ti-stats-up icon-md"></i>
+                </div>
+
+                <div class="col-10 ml-auto mr-3">
+
+                    <h6 class="mb-3 card-title text-dark">
+                        Digital Marketing
+                    </h6>
+
+                    <p class="text-muted">
+                        Increasing online visibility through strategic marketing campaigns.
+                    </p>
+
+                    <hr>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
     <!--Resume Section-->
     <section class="section" id="resume">
