@@ -1,0 +1,116 @@
+/* Sidebar Container Styles */
+.sidebar-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Sidebar Section Styles */
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+/* Sidebar Section Heading */
+.sidebar-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+/* List Styles for Sidebar Sections */
+.sidebar-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar-section ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar-section ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+/* Related Post Styles */
+.related-post img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.related-post span {
+    font-size: 1rem;
+}
+
+/* Form Styles */
+.sidebar-section form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-section form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar-section form button:hover {
+    background-color: #555;
+}
+        #scrollUp {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            width: 30px;
+            height: 30px;
+            background: orange;
+            color: green;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+            z-index: 9999;
+        }
+ 
+         #coverLetter { 
+            max-width: 600px; 
+            margin: auto; 
+            padding: 20px; 
+            border: 1px solid #ccc; 
+            text-align: left; 
+            background: white;
+        }
+        #letterDate { 
+            text-align: right; 
+            font-weight: bold;
+        }
+        button, input {
+            padding: 10px 15px; 
+            font-size: 15px; 
+            display: block;
+        }
+        /* Button Styling */
+
+      button {
+      background: #007BFF;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      }
+        input { padding: 8px; }
+        .error { color: red; font-size: 14px; }
+ 
